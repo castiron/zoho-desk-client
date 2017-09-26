@@ -1,0 +1,21 @@
+{
+    "name": "castiron/zoho-desk-client",
+    "description": "A basic library for connecting to the Zoho Desk API",
+    "type": "library",
+    "require": {
+        "nategood/httpful": "0.2.20",
+        "jakeasmith/http_build_url": "^1.0"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Gabe Blair",
+            "email": "gabe@castironcoding.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Castiron\\ZohoDeskClient\\": "src/"
+        }
+    }
+}
